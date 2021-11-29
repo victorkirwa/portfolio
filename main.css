@@ -1,0 +1,52 @@
+a{
+    text-decoration:none;
+}
+
+
+.nav-menu{
+    min-height: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+    display: flex;
+    display: inline-flexbox;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em;
+    justify-content: space-between;
+    margin: 0;
+    position: sticky;
+    background-color: #c2cab8;
+    z-index: 2;
+    background-color:rgb(95, 241, 241);
+}
+.nav-menu a{
+    display: block;
+    padding: 15px;
+    width: 100px;
+}
+.nav-menu a:hover{
+    background-color:rgb(243, 247, 247);
+}
+
+
+body{
+    background-color: rgba(196, 197, 192, 0.897);
+    font-family:poppins;
+}
+
+.links li{
+    display:inline-flex;
+    content: space-between;
+    padding: 2em;
+    float: center;
+    padding-left: 12em;
+    
+    
+}
+p,h1{
+    text-align: center;
+}
+.taliban img{
+    padding-left: 43%;
+    float:center;
+}
